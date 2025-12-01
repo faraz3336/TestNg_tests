@@ -1,8 +1,11 @@
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Suite">
-    <test name="TestExample">
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="AllTestsSuite">
+
+    <test name="RegressionSuite">
         <classes>
-            <class name="com.test.Test1"/>
+            <class name="com.cdac1.tests.MultiBrowserTest"/>
+            <class name="com.cdac1.tests.AssertEquals"/>
         </classes>
     </test>
+
 </suite>
